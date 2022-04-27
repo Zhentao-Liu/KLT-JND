@@ -1,14 +1,33 @@
-# KLT-JND
-This is a brief introduction of our proposed JND profile with totally new design philosophy based on KLT.
+# Towards Top-Down Just Noticeable Difference Estimation of Natural Images
+This is a brief introduction of our proposed JND profile with totally new design philosophy based on KLT. You can change our program as you like and use it anywhere, but please refer to its original source and cite our paper.
 
-# Just Noticeable Distortion
-The invisibility of human visual system (HVS) has been firstly studied by cognitive scientists during the past decades. Just noticeable distortion (JND) map in an image reveals the invisibility of HVS. There is a redundance of visual content in that image. HVS would not perceive difference if we remove that part of redundant visual content from original image. And that redundant visual content is termed as the JND map. Due to JND map describe the invisibility of HVS, the JND approaches are often used for image/video coding and transmission, visual image/video enhancement, information hiding, visual quality assessment, watermarking, and so on. Nowadays, JND profile estimation has emerged as an active research topic with great importance for both academia and industry realms.
+# Table of content
+1. [Paper Link](#Paper-Link)
+2. [Abstract](#Abstract)
+3. [Download](#Download)
+4. [Requirement](#Requirement)
+5. [Questions](#Questions)
+6. [Citation](#Citation)
 
-# Traditional Bottom-up JND profile design philosophy
-There are a number of JND approaches have been proposed in recent years. These methods can be mainly divided into two categories, i.e., spatial domain and transform domain. Both of them share the same design philosophy: estimate the contributing factors to visibility masking and then combine them together to derive the JND profile. These contributing factors include luminance adaptation (LA), contrast masking (CM), pattern complexity (PC), and contrast sensitivity function (CSF) and so on. We call this bottom-up philosophy which starts from the bottom level visibility masking contributing factors consideration and then fuses them together to obtain the JND map. However, this design philosophy has some inherent drawbacks. First, it’s hard to take all the relevant factors of visibility masking into account and these factors modeling through subjective test cannot be exactly accurate. Second, it’s easy to ignore the interaction and correlation among pixels or image patches or the contributing factors. Thus, the performance of these traditional methods is insufficient to achieve satisfactory visual quality.
+# Paper Link
+- Title: Towards Top-Down Just Noticeable Difference Estimation of Natural Images 
+- Publish: IEEE Transactions on Image Processing, 2022
+- Authors: Qiuping Jiang, Zhentao Liu, Shiqi Wang, Feng Shao, Weisi Lin
+- Institution: The School of Information Science and Engineering, Ningbo University
+- Link: Our paper will be accepted soon. To be continue.
 
-# Our Proposed Top-down JND profile design philosophy
-In this work, we propose a new design philosophy and we call it up-down philosophy to derive the JND profile. We start from the top level perceptual lossless counterpart estimation of the original image. For a specific input image, we first resort to Karhunen-Loe ́ve Transform (KLT) and then derive its perceptual lossless threshold. Based on the perceptual lossless threshold, we perform image reconstruction to obtain the perceptual lossless counterpart of the original image. The difference map between the original image and the perceptual lossless counterpart is the visual redundant information which is hard to be perceived by HVS and implies the invisibility of HVS. It’s hard to perceive the injected noise which is injected into the original image under the guidance of that difference map. And then we just take that difference map as our JND map. Under the premise of keeping the subjective perception consistent, this JND profile could hide more noise compared with other method. Extensive experimental results show the superiority of the proposed approach over the state-of-the-art. What’s more, this JND profile could provide guidance for JPEG coding, and could save more bitrate while maintaining almost the same visual quality.
+# Abstract
+Just noticeable difference (JND) of natural images refers to the maximum change magnitude that the typical human visual system (HVS) cannot perceive. Existing efforts on JND estimation mainly dedicate to modeling the visibility masking effects of different factors in either/both spatial or/and frequency domains, and then fusing them into an overall JND estimate. In this work, we turn to a dramatically different way to address these problems with a top-down design philosophy. Instead of formulating and fusing multiple masking effects in a bottom-up way, the proposed JND estimation model dedicates to first predicting a critical perceptual lossless (CPL) counterpart of the original image and then calculating the difference map between the original image and the predicted CPL image as the JND map. We conduct subjective experiments to determine the critical points of 500 images and find that the distribution of cumulative normalized KLT coefficient energy values over all 500 images
+at these critical points can be well characterized by a Weibull distribution. Given a testing image, its corresponding critical point is determined by a simple weighted average scheme where the weights are determined by a fitted Weibull distribution function. The performance of the proposed JND model is evaluated explicitly with direct JND prediction and implicitly with two applications including JND-guided noise injection and JND-guided image compression. Experimental results have demonstrated that our proposed JND model can achieve better performance than several latest JND models.
 
 # Download
-As long as our paper is published, we will provide the access to download our software. To be continued.
+You can download our proposed software in this project page in the near future. Once our papar is accepted, we will upload it immediately.
+
+# Requirement
+Matlab
+
+# Questions
+If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
+
+# Citation
+If you find this work is useful for you, please cite our paper. Bibtex type citation will be available soon.
