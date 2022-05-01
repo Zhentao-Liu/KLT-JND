@@ -22,7 +22,7 @@ Just noticeable difference (JND) of natural images refers to the maximum change 
 at these critical points can be well characterized by a Weibull distribution. Given a testing image, its corresponding critical point is determined by a simple weighted average scheme where the weights are determined by a fitted Weibull distribution function. The performance of the proposed JND model is evaluated explicitly with direct JND prediction and implicitly with two applications including JND-guided noise injection and JND-guided image compression. Experimental results have demonstrated that our proposed JND model can achieve better performance than several latest JND models.
 
 # Download
-You can download our proposed software in this project page in the near future. Once our papar is accepted, we will upload it immediately.
+You can download our proposed software in this project page.
 
 # Requirement
 Matlab
