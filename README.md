@@ -14,7 +14,7 @@ This is a brief introduction of our proposed JND profile with totally new design
 - Publish: IEEE Transactions on Image Processing, 2022
 - Authors: Qiuping Jiang, Zhentao Liu, Shiqi Wang, Feng Shao, Weisi Lin
 - Institution: The School of Information Science and Engineering, Ningbo University
-- Paper version: We will upload our published version latter. To be continue.
+- Paper version: [2022-TIP-KLTJND-paper](https://github.com/Zhentao-Liu/KLT-JND/raw/main/2022-TIP-KLTJND.pdf)
 - Slide version: [2022-TIP-KLTJND-slide](https://github.com/Zhentao-Liu/KLT-JND/raw/main/Slide_KLTJND.pptx)
 
 # Abstract
