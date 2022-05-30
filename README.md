@@ -23,7 +23,8 @@ Just noticeable difference (JND) of natural images refers to the maximum pixel i
 You can download our proposed software in this project page directly.
 
 # Requirement
-Matlab
+Matlab R2019a 
+Important note: other versions may lead to some errors.
 
 # Questions
 If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
