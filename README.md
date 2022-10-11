@@ -31,14 +31,22 @@ Important Note: other versions may lead to some errors.
 If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
 
 # Citation
-If you find this work is useful for you, please cite our paper. '
+If you find this work is useful for you, please cite our paper. 
 
 >@ARTICLE{9779453,
+>
 >author={Jiang, Qiuping and Liu, Zhentao and Wang, Shiqi and Shao, Feng and Lin, Weisi},
+>
 >journal={IEEE Transactions on Image Processing}, 
+>
 >title={Toward Top-Down Just Noticeable Difference Estimation of Natural Images}, 
+>
 >year={2022},
+>
 >volume={31},
+>
 >number={},
+>
 >pages={3697-3712},
+>
 >doi={10.1109/TIP.2022.3174398}}
