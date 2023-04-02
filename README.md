@@ -27,8 +27,8 @@ Matlab R2019a
 
 Important Note: other versions may lead to some errors.
 
-# Questions
-If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
+# Contact
+If you have any questions of this repo or our paper, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
 
 # Citation
 If you find this work is useful for you, please cite our paper. 
