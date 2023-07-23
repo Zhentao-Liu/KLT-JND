@@ -1,4 +1,4 @@
-# Towards Top-Down Just Noticeable Difference Estimation of Natural Images
+# Toward Top-Down Just Noticeable Difference Estimation of Natural Images
 This is a brief introduction of our proposed JND profile with totally new design philosophy based on KLT. You can change our program as you like and use it for academic, but please refer to its original source and cite our paper.
 
 # Table of content
@@ -10,7 +10,7 @@ This is a brief introduction of our proposed JND profile with totally new design
 6. [Citation](#Citation)
 
 # Link
-- Title: Towards Top-Down Just Noticeable Difference Estimation of Natural Images 
+- Title: Toward Top-Down Just Noticeable Difference Estimation of Natural Images 
 - Publish: IEEE Transactions on Image Processing, 2022
 - Authors: Qiuping Jiang, Zhentao Liu, Shiqi Wang, Feng Shao, Weisi Lin
 - Institution: The School of Information Science and Engineering, Ningbo University
