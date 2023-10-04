@@ -1,6 +1,7 @@
-function [jnd_map,CPL,thre_final] = KLT_JND(im,L)
+function [jnd_map,CPL,thre_final] = KLT_JND(im,ed_pro,L)
 % input
 % im: input image that need to compute the JND map
+% ed_pro: whether use edge protect
 % L: specified number of spectral components that included in inverse KLT
 % If you do not input L or L=0, then the program will adopt weibull
 % distribution to compute the critical point
@@ -8,7 +9,11 @@ function [jnd_map,CPL,thre_final] = KLT_JND(im,L)
 % jnd_map: the computed JND map
 % CPL: perceptual lossless image
 % thre_final: critical point
-if (nargin<2)
+if (nargin==1)
+    ed_pro = 1;
+    L = 0;
+end
+if (nargin==2) 
     L = 0;
 end
 kernel_size = 64;
