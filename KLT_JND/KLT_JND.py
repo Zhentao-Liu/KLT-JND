@@ -119,7 +119,7 @@ def func_edge_height(img):
     return edge_height
 
 
-def KLT_JND(im, L=0, ed_pro = True):
+def KLT_JND(im, ed_pro=True, L=0):
     '''
     args:
         im: input image (single channel, gray or Y channel)
