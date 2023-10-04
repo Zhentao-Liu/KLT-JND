@@ -1,6 +1,9 @@
 # Toward Top-Down Just Noticeable Difference Estimation of Natural Images
 This is a brief introduction of our proposed JND profile with totally new design philosophy based on KLT. You can change our program as you like and use it for academic, but please refer to its original source and cite our paper.
 
+# News
+Update: we provide python extenion of this JND profile for research usage! 
+
 # Table of content
 1. [Link](#Link)
 2. [Abstract](#Abstract)
