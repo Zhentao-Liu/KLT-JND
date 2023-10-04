@@ -19,16 +19,16 @@ KLT_kernel = pca(text_matrix');
 klt_coeff = KLT_kernel'*text_matrix;     
 energy = (sum(klt_coeff.^2,2)/size(klt_coeff,2));
 p = energy/sum(energy);
-for i = 1:kernel_size
-   P_cum(i) = sum(p(1:i));   
-   thre_cumu = thre_cumu + i*weibull_com(P_cum(i));
-   f_cumu = f_cumu + weibull_com(P_cum(i)); 
-end
 if L==0
+   for i = 1:kernel_size
+       P_cum(i) = sum(p(1:i));   
+       thre_cumu = thre_cumu + i*weibull_com(P_cum(i));
+       f_cumu = f_cumu + weibull_com(P_cum(i)); 
+  end
   thre_final = ceil(thre_cumu/f_cumu);
 else
   thre_final = L;
-end
+end 
 klt_coeff_re = zeros(size(klt_coeff)); 
 klt_coeff_re(1:thre_final,:) = klt_coeff(1:thre_final,:);
 test_matrix_re = KLT_kernel*klt_coeff_re; 
