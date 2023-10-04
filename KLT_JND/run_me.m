@@ -8,7 +8,7 @@ else
    im = double(img);
 end
 tic
-[jnd_map,CPL,thre_final] = KLT_JND(im);
+[jnd_map,CPL,thre_final] = KLT_JND(im,1);
 toc
 jnd_map_show = img_scaled(log2(jnd_map+2));
 figure,
