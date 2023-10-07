@@ -17,7 +17,7 @@ if (nargin==2)
     L = 0;
 end
 kernel_size = 64;
-k_sqrt = np.sqrt(kernel_size)  % make sure dividable
+k_sqrt = sqrt(kernel_size)  % make sure dividable
 im = modcrop(im, k_sqrt)
 thre_cumu = 0;
 f_cumu = 0;
