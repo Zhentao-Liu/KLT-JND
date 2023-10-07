@@ -132,6 +132,8 @@ def KLT_JND(im, ed_pro=True, L=0):
         thre_final: critical point 
     '''
     kernel_size = 64
+    k_sqrt = int(np.sqrt(kernel_size))  # make sure dividable
+    im = modcrop(im, k_sqrt)
     thre_cumu = 0
     f_cumu = 0
     test_matrix = patch_extract(im, kernel_size)
